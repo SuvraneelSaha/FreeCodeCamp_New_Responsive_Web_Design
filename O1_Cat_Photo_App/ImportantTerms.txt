@@ -1,0 +1,3 @@
+Main tag in html 
+Section tag in html
+Figure Element 
