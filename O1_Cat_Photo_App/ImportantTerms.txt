@@ -3,3 +3,31 @@ Section tag in html
 Figure Element 
 Figcaption tag / Element
 em tag 
+form Element in html along with the action attribute 
+point to remember : 
+input elements are self-closing and do not need closing tags.
+also they are inline elements
+input element and Text attribute in html 
+required attribute in input element 
+
+type = radio in input html element
+
+Label element - For example, <label><input type="radio"> cat</label> makes it so clicking the word cat also selects the corresponding radio button.
+
+id attribute 
+
+name attribute which helps in selecting only a specific label or an option or an input type radio button 
+
+value attribute in input element
+
+Fieldset element in html 
+
+legend element in html
+
+checkbox value in type attribute in the input element
+
+for attribute in lable tag 
+
+checked attribute in input tag with radio or with checkboxes 
+
+Footer section 
