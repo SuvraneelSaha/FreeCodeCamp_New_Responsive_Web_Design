@@ -88,3 +88,40 @@ Give the menu class a padding-left and a padding-right with the same value 20px.
 Step 55
 Since all 4 sides of the menu have the same internal spacing, 
 go ahead and delete the four properties and use a single padding property with the value 20px.
+
+Step 56
+The current width of the menu will always take up 80% of the body element's width. On a very wide screen, the coffee and dessert appear far apart from their prices.
+
+Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.
+
+Step 57 
+We can change the font of the body by changing the font-family inside the css 
+
+Step 59
+Fallbacks are used in instances where the initial is not found/available.
+
+Add the fallback font serif after the Impact font.
+
+Step 62 
+The typography of heading elements (e.g. h1, h2) is set by default values of users' browsers.
+We can change the font size by using the CSS property font-size
+
+Step 67 
+The default properties of an hr element will make it appear as a thin light grey line. You can change the height of the line by specifying a value for the height property.
+
+Step 69
+Notice the grey color along the edges of the line. Those edges are known as borders. Each side of an element can have a different color or they can all be the same.
+
+Make all the edges of the hr element the same color as the background of it using the border-color property.
+
+Step 70 
+Notice how the thickness of the line looks bigger? The default value of a property named border-width is 1px for all edges of hr elements. By changing the border to the same color as the background, the total height of the line is 5px (3px plus the top and bottom border width of 1px).
+
+
+Step 73 
+Focusing on the menu items and prices, there is a fairly large gap between each line.
+
+Target all the p elements nested in elements with the class named item and set their top and bottom margin to be 5px.
+
+Step 79 
+The default color of a link that has not yet been clicked on is typically blue. The default color of a link that has already been visited from a page is typically purple.

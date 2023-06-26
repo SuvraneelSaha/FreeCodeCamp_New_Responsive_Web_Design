@@ -3,6 +3,30 @@ h1,h2,p{
 }
 body{
   background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family:cursive;
+  padding: 20px;
+}
+h1,h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.established{
+  font-style: italic;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 30px;
+}
+hr{
+  height: 3px;
+  background-color: brown;
+  border-color:brown;
+  
+  /*
+  width - horizontal line
+  height - vertical line  
+   */
 }
 .menu{
   width: 80%;
@@ -16,6 +40,9 @@ body{
  padding: 20px;
  /* if all the sides have the same spacing 
  then use the padding css property  */
+
+ max-width:500px;
+ /* even the screen size increases the menu element will have a max width of 500px */
 }
 .test{
   background-color: aquamarine;
@@ -33,4 +60,18 @@ body{
 
 .item p{
   display:inline-block;
+  margin-top:5px;
+  margin-bottom:5px;
+  font-size: 18px;
+}
+.bottom-line{
+  margin-top: 25px;
+  /* margin is used to create empty space between elements .
+  all 4 sides are possible  */
+}
+
+footer
+{
+  font-size: 20px;
+  font-family:monospace;
 }
