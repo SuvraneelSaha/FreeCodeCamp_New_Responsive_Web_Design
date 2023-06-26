@@ -125,3 +125,24 @@ Target all the p elements nested in elements with the class named item and set t
 
 Step 79 
 The default color of a link that has not yet been clicked on is typically blue. The default color of a link that has already been visited from a page is typically purple.
+
+to change the color of the link use a element (anchor element) type selector and 
+change the color(font-color) to black or Something of your choice
+
+Step 80
+You change properties of a link when the link has actually been visited by using a pseudo-selector that looks like a:visited { propertyName: propertyValue; }.
+
+Step 84
+The menu text CAMPER CAFE has a different space from the top than the address's space at the bottom of the menu. This is due to the browser having some default top margin for the h1 element.
+
+Change the top margin of the h1 element to 0 to remove all the top margin.
+
+Step 89 : 
+The image you added is not centered horizontally like the Coffee heading above it. img elements are "like" inline elements.
+
+Step 91 
+Step 91Passed
+It would be nice if the vertical space between the h2 elements and their associated icons was smaller. The h2 elements have default top and bottom margin space, so you could change the bottom margin of the h2 elements to say 0 or another number.
+
+There is an easier way, simply add a negative top margin to the img elements to pull them up from their current positions. Negative values are created using a - in front of the value. To complete this project, go ahead and use a negative top margin of 25px in the img type selector.
+
