@@ -1,0 +1,36 @@
+h1,h2,p{
+  text-align: center;
+}
+body{
+  background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+.menu{
+  width: 80%;
+  background-color: burlywood;
+  /* values are important for measuring  */
+  /* px percentage all are necessary to give  */
+
+  /* Below steps help to center a div element within the body element  */
+  margin-left: auto;
+  margin-right: auto;
+ padding: 20px;
+ /* if all the sides have the same spacing 
+ then use the padding css property  */
+}
+.test{
+  background-color: aquamarine;
+  display:inline-flex
+}
+
+.flavor,.dessert{
+  text-align: left;
+  width: 75%;
+}
+.price{
+  text-align: right;
+  width: 25%;
+}
+
+.item p{
+  display:inline-block;
+}
