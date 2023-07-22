@@ -1,0 +1,14 @@
+Step 8Passed
+The vh unit stands for viewport height, and is relative to 1% of the height of the viewport.
+
+It is time to spruce the project up with some CSS. Begin by giving the body a width of 100%, and a height of 100vh.
+
+the viewport is the user's visible area of a web page of a website that the user is present on 
+
+point 
+CSS Margins
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+Question : 
+what happens when we set margin attribute in body rule to be 100% or 0 
+
