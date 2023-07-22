@@ -12,3 +12,51 @@ The CSS margin properties are used to create space around elements, outside of a
 Question : 
 what happens when we set margin attribute in body rule to be 100% or 0 
 
+block and inline elements are different 
+in case of block elements they take up the whole area or size of that plane or webpage 
+by default the browser gives bottom and top margins 
+
+and in case of inline elements -- they take only the necessary size of the plane or webpage 
+no margin by default 
+
+Step 19 : 
+label element --> signifies the text for anything special 
+ex - input button or any input space area 
+
+for attribute in label element --> signifies the context of the value 
+
+input element--> takes in the input as a form of many different things 
+like text email password blah blah 
+
+type attribute in input element --> specifies the type of content inside the input box
+
+id attribute in input element --> signifies the id by which it will be identified 
+
+Step 23Passed
+With type="password" you can use the pattern attribute to define a regular expression that the password must match to be considered valid.
+
+Add a pattern attribute to the password input element to require the input match: [a-z0-5]{8,}
+
+The above is a regular expression which matches eight or more lowercase letters or the digits 0 to 5. Then, remove the minlength attribute, and try it out.
+
+Step 28Passed
+You only want one radio input to be selectable at a time. However, the form does not know the radio inputs are related.
+
+To relate the radio inputs, give them the same name attribute with a value of account-type. Now, it is not possible to select both radio inputs at the same time.
+
+Step 36Passed
+Submitting the form with an option selected would not send a useful value to the server. As such, each option needs to be given a value attribute. Without which, the text content of the option will be submitted to the server.
+
+Give the first option a value of "", and the subsequent option elements value attributes from 1 to 4.
+
+Step 37 
+Users will be able to register with a bio. Add a label with the text Provide a bio: at the end of the fieldset. Add a textarea element inside the label element. Note that the textarea requires a closing tag.
+
+Remember : 
+input element contains id attribute --< used for identification 
+label element contains for attribute --> used as finding out for which purpose it is used 
+
+
+ The placeholder accepts a text value, which is displayed until the user starts typing.
+
+ 
