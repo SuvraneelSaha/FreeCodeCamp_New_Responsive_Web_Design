@@ -72,5 +72,42 @@ label element contains for attribute --> used as finding out for which purpose i
 padding - the space between the element's content and the border is known as padding 
 even if their is no border the space will be present 
 
+Step 47Passed
+
+The border of the last fieldset element looks a little out of place. You can select the last element of a specific type using the last-of-type CSS pseudo-class, like this:
+
+p:last-of-type { }
+That will select the last p element. Create a new selector that targets the last fieldset element and set its border-bottom to none.
+
+Step 48 
+make the input select and textarea elements
+full width to that of their parent element 
+and also make margin top 10px 
+
+Step 49Passed
+For the second fieldset, you want the input and label text to appear on the same line.
+
+Start, by giving the input elements in the second fieldset a class of inline.
+
+Step 56Passed
+To style the submit button, you can use an attribute selector, which selects an element based on the given attribute value. Here is an example:
+
+input[name="password"]
+The above selects input elements with a name attribute value of password.
+
+Now, use the attribute selector to style the submit button with a display of block, and a width of 60%.
 
 
+Step 57Passed
+With a display of block the submit button sits flush against the left edge of its parent.
+
+Use the same technique used to center the form to center the submit button.
+
+
+Step 61Passed
+Most browsers inject their own default CSS properties and values for different elements. If you look closely, you might be able to notice the file input is smaller than the other text input elements. By default, a padding of 1px 2px is given to input elements you can type in.
+
+Using another attribute selector, style the input with a type of file to be the same padding as the other input elements.
+
+Step 62Passed
+Speaking of padding, the submit button is sitting at the bottom of the form element. Add 2em of padding only to the bottom of the form.

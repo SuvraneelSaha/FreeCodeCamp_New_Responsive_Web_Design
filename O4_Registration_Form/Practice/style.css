@@ -26,6 +26,7 @@ form
   max-width: 500px;
   min-width: 300px;
   width: 60vw;
+  padding-bottom: 2em ;
 }
 fieldset
 {
@@ -33,4 +34,56 @@ fieldset
   padding: 2rem 0;
   border-bottom:3px solid #3b3b4f;
 
+}
+fieldset:last-of-type
+{
+  border-bottom: none;
+}
+
+
+.inline
+{
+  width: unset;
+  /* changing the default width given in the previous css rule */
+  margin:0 0.5em 0 0 ;
+  /* Add some space between the .inline elements and the label text, by giving a right margin of 0.5em. Also, set all the other margin to 0. */
+  vertical-align: middle;
+  /* as the inline elements were little above the text  */
+
+}
+
+input,select,textarea
+{
+  margin:10px 0 0 0 ;
+  width: 100%;
+  min-height:2em;
+}
+input,textarea
+{
+  background-color:#0a0a23;
+  border:1px solid #0a0a23;
+  color:#ffffff;
+  
+  /* font color - color property  */
+  /* min-height for the input text box size  */
+}
+
+input[type="submit"]
+{
+  display:block;
+  width:60%;
+  margin:0 auto;
+  /* for centering the element */
+  font-size:1.1rem;
+  height:2em;
+  background-color: #3b3b4f;
+  border-color: white;
+  margin:1em auto;
+  /* margin is the space ourside the border of an element  */
+  /* and the padding is the space between the element's content and the border  */
+  min-width:300px;
+}
+
+a{
+  color: #dfdfe2;
 }
