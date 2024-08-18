@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+/* 
+With box-sizing: content-box (the default):
+
+The content area is 100px wide.
+Padding adds 20px (10px on each side).
+Border adds 10px (5px on each side).
+Total width = 100px (content) + 20px (padding) + 10px (border) = 130px.
+
+In case of border-box ; 
+if the padding is given as 10px wide 
+and border as 5px 
+and if the total width is 100px then the content area will be like 
+
+100 - 20(padding) - 10(borders) 
+= 70 px for the Content ONLY . 
+This is Used for Precision element sizing 
+ */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction - can be 
+  row-reverse;
+  column;
+  column-reverse
+   */
+  flex-wrap: wrap;
+  /* 
+  If the elements have more size they will go to the Next row or column depending which is the Main Axis 
+  and here we can see the main axis is row as the flex-direction is given as row 
+   */
+  justify-content: center;
+  /* for 
+  aligning the items centrally according to the Main Axis  
+   */
+  align-items: center;
+  /* 
+  Here the Cross axis is the Y axis ie the column and it is told to align the elements centrally 
+  */
+  gap: 16px;
+  /* row-gap and column-gap are also there */
+  max-width: 1400px;
+  /* this max width is given for the responsive width when the browser size is reduced or something  */
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  /* object-fit it is a property that helps to fit the images wholly inside of the image container  */
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+/*
+The ::after pseudo-element is a powerful tool in CSS that
+ allows you to insert content after the last child of a selected element without adding any extra HTML markup.
+  This is especially useful in situations where you want to manipulate the layout or style of elements dynamically.
+
+Example: Using ::after to Adjust Layout
+Imagine you have a flex container with images that are displayed in a two-column layout.
+ If you want to push the last image to the left when there are an odd number of images (so it doesn't center-align due to justify-content: center),
+  you can use the ::after pseudo-element. 
+
+  
+ */
